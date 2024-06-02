@@ -78,3 +78,70 @@ int main() {
     return 0;
 }
 
+
+// Output:
+// Bigram Probabilities (with Laplace Smoothing):
+// P(the|the) = 0.1000
+// P(quick|the) = 0.2000
+// P(brown|the) = 0.1000
+// P(fox|the) = 0.1000
+// P(jumps|the) = 0.1000
+// P(over|the) = 0.1000
+// P(lazy|the) = 0.2000
+// P(dog|the) = 0.1000
+// P(the|quick) = 0.1111
+// P(quick|quick) = 0.1111
+// P(brown|quick) = 0.2222
+// P(fox|quick) = 0.1111
+// P(jumps|quick) = 0.1111
+// P(over|quick) = 0.1111
+// P(lazy|quick) = 0.1111
+// P(dog|quick) = 0.1111
+// P(the|brown) = 0.1111
+// P(quick|brown) = 0.1111
+// P(brown|brown) = 0.1111
+// P(fox|brown) = 0.2222
+// P(jumps|brown) = 0.1111
+// P(over|brown) = 0.1111
+// P(lazy|brown) = 0.1111
+// P(dog|brown) = 0.1111
+// P(the|fox) = 0.1111
+// P(quick|fox) = 0.1111
+// P(brown|fox) = 0.1111
+// P(fox|fox) = 0.1111
+// P(jumps|fox) = 0.2222
+// P(over|fox) = 0.1111
+// P(lazy|fox) = 0.1111
+// P(dog|fox) = 0.1111
+// P(the|jumps) = 0.1111
+// P(quick|jumps) = 0.1111
+// P(brown|jumps) = 0.1111
+// P(fox|jumps) = 0.1111
+// P(jumps|jumps) = 0.1111
+// P(over|jumps) = 0.2222
+// P(lazy|jumps) = 0.1111
+// P(dog|jumps) = 0.1111
+// P(the|over) = 0.2222
+// P(quick|over) = 0.1111
+// P(brown|over) = 0.1111
+// P(fox|over) = 0.1111
+// P(jumps|over) = 0.1111
+// P(over|over) = 0.1111
+// P(lazy|over) = 0.1111
+// P(dog|over) = 0.1111
+// P(the|lazy) = 0.1111
+// P(quick|lazy) = 0.1111
+// P(brown|lazy) = 0.1111
+// P(fox|lazy) = 0.1111
+// P(jumps|lazy) = 0.1111
+// P(over|lazy) = 0.1111
+// P(lazy|lazy) = 0.1111
+// P(dog|lazy) = 0.2222
+// P(the|dog) = 0.1111
+// P(quick|dog) = 0.1111
+// P(brown|dog) = 0.1111
+// P(fox|dog) = 0.1111
+// P(jumps|dog) = 0.1111
+// P(over|dog) = 0.1111
+// P(lazy|dog) = 0.1111
+// P(dog|dog) = 0.1111

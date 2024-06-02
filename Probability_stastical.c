@@ -108,3 +108,6 @@ int main() {
 
     return 0;
 }
+
+// Output:
+// Probability of the sentence 'They' is 0.0001

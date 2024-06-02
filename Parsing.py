@@ -44,3 +44,8 @@ def main():
 if __name__ == "__main__":
     main()
 
+# Output:
+# Top-Down Parsing (Recursive Descent):
+# (S (NP (Det the) (N cat)) (VP (V saw) (NP (Det a) (N dog))))
+# Bottom-Up Parsing (Shift-Reduce):
+# (S (NP (Det the) (N cat)) (VP (V saw) (NP (Det a) (N dog))))

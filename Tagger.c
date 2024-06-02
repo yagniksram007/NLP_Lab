@@ -95,3 +95,12 @@ int main() {
     return 0;
 }
 
+
+// Output:
+// Rule-Based Tagger:
+// ARTICLE NOUN VERB PREPOSITION ARTICLE UNKNOWN 
+// ARTICLE NOUN VERB PREPOSITION ARTICLE UNKNOWN 
+
+// Stochastic Tagger:
+// ARTICLE
+// ARTICLE
